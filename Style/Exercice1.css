@@ -9,10 +9,8 @@
   text-align: center;
   margin: 0;
 }
-.separateur {
-  border: 1px solid black;
+hr {
   height: 10px;
-  margin: 10px 0;
 }
 #tableau {
   width: 600px;

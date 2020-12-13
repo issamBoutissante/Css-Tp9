@@ -1,0 +1,29 @@
+h3 {
+  text-align: center;
+  background-color: blue;
+  color: white;
+}
+#containerDeTable {
+  display: flex;
+  justify-content: center;
+  padding-left: 100px;
+}
+
+.container {
+  display: flex;
+}
+.text1 {
+  padding-top: 40px;
+  width: 50%;
+  text-align: right;
+  padding-right: 10px;
+}
+.text2 {
+  padding-top: 10px;
+}
+button {
+  width: 120px;
+}
+#valider {
+  width: 300px;
+}
