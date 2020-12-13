@@ -32,6 +32,7 @@ th {
 button {
   width: 120px;
   margin-bottom: 5px;
+  font-weight: bold;
 }
 #montant {
   font-weight: bold;
