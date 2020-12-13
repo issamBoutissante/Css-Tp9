@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercice 1</title>
+    <link rel="stylesheet" href="Style/Exercice1.css" />
+  </head>
+  <body>
+    <section id="container">
+      <h1 class="title">Vente Pizza</h1>
+      <table>
+        <tr>
+          <td>Nom Client</td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>Adress</td>
+          <td><input type="text" size="30px" /></td>
+        </tr>
+      </table>
+      <div class="separateur"></div>
+      <h3 class="title">Produits a acheter</h3>
+      <table id="tableau">
+        <tr>
+          <th>Nom de Produit</th>
+          <th>Prix Unitaire en DH</th>
+          <th>Quantite</th>
+        </tr>
+        <tr>
+          <td>Pizza 4 Fromages</td>
+          <td>80</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>Pizza Herbo</td>
+          <td>75</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Pizza viande hachee</td>
+          <td>100</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>Pizza fruits de mer</td>
+          <td>120</td>
+          <td></td>
+        </tr>
+      </table>
+      <div class="separateur"></div>
+      <form>
+        <h3>Paiement par:</h3>
+        <input type="radio" name="paiement" /> Carte Bancaire
+        <input type="radio" name="paiement" /> Cheque
+        <p id="numeroCartLabel">Numero de la carte bancaire</p>
+        <input id="numeroCartInput" type="text" /><br />
+        <button>Envoyer</button>
+        <br />
+        <strong
+          >Merci pout votre visite,le montant de votre commande est :</strong
+        ><input id="montant" type="text" />
+      </form>
+    </section>
+  </body>
+</html>
