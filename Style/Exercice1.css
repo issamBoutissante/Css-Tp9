@@ -20,6 +20,9 @@ th {
   border: 1px solid black;
   text-align: center;
 }
+.colonneEnGras {
+  font-weight: bold;
+}
 #numeroCartLabel {
   margin-top: 10px;
   margin-bottom: 0px;

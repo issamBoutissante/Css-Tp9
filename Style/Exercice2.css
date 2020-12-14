@@ -3,9 +3,8 @@ h3 {
   background-color: blue;
   color: white;
 }
-#containerDeTable {
-  display: flex;
-  justify-content: center;
+#containerDeTable table {
+  margin: 0px auto;
   padding-left: 100px;
 }
 
