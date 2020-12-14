@@ -13,7 +13,7 @@ hr {
   height: 10px;
 }
 #tableau {
-  width: 600px;
+  width: 100%;
 }
 #tableau td,
 th {
